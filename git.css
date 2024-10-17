@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+.sedans{
+    background-color:  hsl(31, 77%, 52%); 
+    width: 100%;
+    padding: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.your{
+    color:  white;
+}
+.mine{
+    color:  hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+}
+.button{
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 8rem;
+    border: none;
+    color: hsl(31, 77%, 52%) ;
+    margin-top: 3rem;
+    font-family: "Lexend Deca", sans-serif;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%); 
+    width: 100%;
+    padding: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.they{
+    color:  white;
+}
+.tobi{
+    color:  hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+}
+.ribbon{
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 8rem;
+    border: none;
+    color: hsl(184, 100%, 22%) ;
+    margin-top: 3rem;
+    font-family: "Lexend Deca", sans-serif;
+}
+.lux{
+    background-color:  hsl(179, 100%, 13%); 
+    width: 100%;
+    padding: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.toba{
+    color:  white;
+}
+.tola{
+    color:  hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+}
+.mistake{
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 8rem;
+    border: none;
+    color:  hsl(179, 100%, 13%) ;
+    margin-top: 1.7rem;
+    font-family: "Lexend Deca", sans-serif;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    align-content: center;
+    margin-top: 7rem;
+    
+}
+.button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.ribbon:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.mistake:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
